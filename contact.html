@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fansite.css">
+    <title>Conatct</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="réalisation.html">Réalisation</a></li>
+                <li><a href="Evenement.html">Evenement</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="personnage.html">Personnages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+    
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="/images/Naruto_logo-removebg-preview.png" alt="logo">
+        </div>
+        </header>
+        <main>
+            <form action="exemple.exemple" method="POST">
+                <label for="Genre">Genre :</label>
+                <select id="Genre" name="Genre">
+                    <option value="monsieur">Monsieur</option>
+                    <option value="madame">Madame</option>
+                    <option value="mademoiselle">Mademoiselle</option>
+                </select>
+    
+                <label for="firstname">Prénom :</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Ex : Gabriel" required>
+    
+                <label for="lastname">Nom :</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Ex : Cini" required>
+    
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="Ex : gabriel.cini@example.com" required>
+    
+                <label for="telephone">Téléphone :</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="Ex : 0227456489" required>
+    
+                <label for="street">Adresse Postale :</label>
+                <input type="text" id="street" name="street" placeholder="Ex : 123 rue d'hozier" required>
+    
+                <label for="city">Code Postal et Ville :</label>
+                <input type="text" id="city" name="city" placeholder="Ex : 13001 Marseille" required>
+    
+                <label for="country">Pays :</label>
+                <input type="text" id="country" name="country" placeholder="Ex : France" required>
+    
+                <label for="message">Votre demande :</label>
+                <input type="text" id="message" name="message"
+                    placeholder="Ex : Votre message ici" required>
+    
+                <button type="submit">Envoyer</button>
+            </form>
+        </main>
+        <footer>
+    
+        </footer>
+</body>
+</html>
